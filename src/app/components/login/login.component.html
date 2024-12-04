@@ -1,0 +1,33 @@
+<div class="container-login">
+  <div class="portal-left">
+
+    <div class="head-login">
+      <p class="titulo">Ingresar</p>
+      <p class="des">Ingresa los datos de tu cuenta</p>
+    </div>
+
+    <form [formGroup]="loginForm" (ngSubmit)="onLogin()" class="body-login">
+      <input type="email" class="form-control" id="email" formControlName="email" placeholder="Correo"
+        required>
+      <input type="password" class="form-control" id="password" formControlName="password" placeholder="Contraseña"
+        required>
+
+      <a href="#">¿Olvidaste la contraseña?</a>
+      <button type="submit">Ingresar</button>
+    </form>
+
+    <div class="foot-login">
+      <a href="#">¿No tienes cuenta?</a>
+      <button [routerLink]="['/register']" >Registrar</button>
+    </div>
+
+  </div>
+  <div class="portal-right">
+    <div class="titulo-login">
+      <label class="a">Bienvenido al</label>
+      <label class="b">portal innova urp</label>
+      <label class="c">Ingresa a tu cuenta</label>
+    </div>
+    <img src="logoUrp.png" alt="">
+  </div>
+</div>

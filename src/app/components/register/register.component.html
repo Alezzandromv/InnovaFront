@@ -1,0 +1,49 @@
+<div class="container-login">
+    <div class="portal-right">
+        <div class="titulo-login">
+            <label class="a">Bienvenido al</label>
+            <label class="b">portal innova urp</label>
+            <label class="c">Ingresa a tu cuenta</label>
+        </div>
+        <img src="logoUrp.png" alt="">
+    </div>
+    <div class="portal-left">
+
+        <div class="head-login">
+            <p class="titulo">Registrate</p>
+            <p class="des">Ingresa tus datos</p>
+        </div>
+
+        <form [formGroup]="registerForm" (ngSubmit)="onRegister()" class="body-login">
+
+            <div class="b1">
+                <input type="text" class="form-control" id="nombres" formControlName="nombres" placeholder="Nombres"
+                    required>
+                <input type="text" class="form-control" id="apellidos" formControlName="apellidos"
+                    placeholder="Apellidos" required>
+            </div>
+
+            <input type="email" class="form-control" id="email" formControlName="email" placeholder="Correo" required>
+
+            <div class="b2">
+                <input type="text" class="form-control" id="codigo" formControlName="codigo" placeholder="Codigo"
+                    required>
+                <input type="text" class="form-control" id="facultad" formControlName="facultad" placeholder="Facultad"
+                    required>
+            </div>
+
+            <input type="text" class="form-control" id="carrera" formControlName="carrera" placeholder="Carrera"
+                required>
+            <input type="text" class="form-control" id="password" formControlName="password"
+                placeholder="Contraseña" required>
+
+            <button type="submit">Registrar</button>
+        </form>
+
+        <div class="foot-login">
+            <a>¿Tienes cuenta?</a>
+            <button [routerLink]="['/login']">Ingresar</button>
+        </div>
+
+    </div>
+</div>

@@ -1,0 +1,221 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+  }
+  
+  .container-login {
+    width: 100%;
+    background: #1C1D21;
+    /* Color de la mitad izquierda */
+    background-image: linear-gradient(to right, #1C1D21 50%, #00BC4F 50%);
+    background-size: 100% 100%;
+    /* Cubre todo el contenedor */
+    height: 100vh;
+    /* Altura completa */
+    width: 100%;
+    /* Ancho completo */
+  
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .portal-left {
+    width: 40%;
+    height: 90%;
+    background: #1C1D21;
+    box-shadow: 5px 8px 15px 7px #0000004e;
+    border-radius:  0 26px 26px 0;
+    padding: 3% 7%;
+  
+  
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+  
+  }
+  
+  
+  /*head-login*/
+  .head-login {
+    color: #fff;
+  }
+  
+  .head-login .des {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 15px;
+  }
+  
+  .head-login .titulo {
+    font-size: 45px;
+    font-weight: 700;
+  }
+  
+  /*form*/
+  .body-login {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    color: #d3d3d3;
+  }
+  
+  .body-login input {
+    font-size: 16px;
+    background: #1C1D21;
+    color: #d3d3d3;
+    border: none;
+    border-bottom: 1.5px solid #d3d3d3;
+    outline: none;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    border-radius: 0;
+  }
+
+  .body-login .b1{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .body-login .b1 input{
+    width: 46%;
+  }
+
+  .body-login .b2{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .body-login .b2 input{
+    width: 46%;
+  }
+
+
+  
+  .body-login input::placeholder{
+    color: #a0a0a0;
+  }
+
+  .body-login input:focus{
+    color: #a0a0a0;
+    border: none;
+    border-bottom: 3px solid #d3d3d3;
+    outline: none !important;
+    outline-color: #1C1D21;
+    box-shadow: none; 
+  }
+  
+  .body-login a {
+    font-size: 17.5px;
+    color: #acacacac;
+    text-decoration: none;
+    margin-top: 5px;
+  }
+  
+  .body-login button {
+    background: #00BC4F;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 40px;
+  }
+  
+  .body-login button:hover {
+    cursor: pointer;
+    background: #00bc4edf;
+  }
+  
+  /*foot*/
+  
+  .foot-login {
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .foot-login a {
+    font-size: 17.5px;
+    color: #acacac87;
+    text-decoration: none;
+  }
+  
+  .foot-login button {
+    background: #2d2e31;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .foot-login button:hover{
+    cursor: pointer;
+    background: #464646;
+  }
+  
+  
+  
+  .portal-right {
+    width: 40%;
+    height: 90%;
+    background-color: #00bc4e;
+    background-image: url("https://arquitecturapanamericana.com/wp-content/gallery/AULARIO-EN-EL-CAMPUS-DE-LA-UNIVERSIDAD-RICARDO-PALMA%2C-SURCO/AULARIO-EN-EL-CAMPUS-DE-LA-UNIVERSIDAD-R.-P.-002.jpg"), 
+    linear-gradient(#10572e5c, #0f562d84);
+    background-blend-mode: darken; 
+    border-radius: 26px 0 0 26px;
+    box-shadow: -5px 8px 15px 7px #0000004e;
+    padding: 5%;
+  
+  
+    display: flex;
+    flex-flow:  column wrap;
+    justify-content: space-around;
+    align-items: center;
+  
+  }
+  
+  
+  
+  .portal-right img {
+    width: 200px;
+  }
+  
+  .titulo-login{
+    display:  flex;
+    flex-flow:  column wrap;
+    justify-content: center;
+  }
+  
+  .titulo-login label{
+    color: #fff;
+  }
+  
+  .titulo-login .a{
+    font-size: 60px;
+    font-weight: 800;
+  }
+  .titulo-login .b{
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  .titulo-login .c{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 60px;
+    padding-left: 4px;
+  }
+  

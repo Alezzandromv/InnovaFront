@@ -1,0 +1,26 @@
+
+*{
+    font-family: 'Inter';
+}
+.container-body{
+    padding: 10px 40px;
+}
+
+.titulo-novedades{
+    font-weight: 600;
+    color: #00BC4F;
+    font-size: 32px;
+}
+
+.cards-novedades{
+    display: flex;
+    justify-content: space-between;
+}
+
+.novedades{
+    margin-top: 40px;
+}
+
+.titulo-novedades{
+    margin-bottom: 30px;
+}

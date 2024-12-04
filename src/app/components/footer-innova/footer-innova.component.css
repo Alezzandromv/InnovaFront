@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+    color: #fff;
+}
+
+.footer-innova {
+    background: #00BC4F;
+    width: 100%;
+    padding: 15px;
+    margin-top: 50px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-innova p {
+    font-weight: 700;
+    margin-right: 20px;
+}
+
+.footer-innova img {
+    width: 35px;
+}

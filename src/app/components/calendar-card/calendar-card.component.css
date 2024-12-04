@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+    color: #fff;
+}
+
+
+.contain-card{
+    margin: auto;
+    width: 70%;
+
+    display: flex;
+    flex-grow: row wrap;
+    
+}
+
+.card-calendar{
+    background: #0A0A0B;
+    width: 90%;
+    border-radius: 15px 0 0 15px;
+    padding: 25px;
+
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+
+
+/*card*/
+.fecha{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+/*principal*/
+.principal{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+}
+.titulo{
+    font-weight: 700;
+    font-size: 28px;
+    width: 90%;
+    text-align: 28px;
+}
+.facultad{
+    font-weight: 600;
+}
+.validez{
+    font-size: 15px;
+    color: #00BC4F;
+    margin-top: 15px;
+}
+
+
+
+/*info*/
+.info{
+
+    padding-top: 15px;
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+}
+
+.info p{
+    color: #00BC4F;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.info i{
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.hora-block{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.ubi-block{
+
+    margin-top: 10px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.ubi{
+    width: 60%;
+    text-align: end;
+}
+
+
+
+
+.decoration{
+    background: #00BC4F;
+    width: 10%;
+    border-radius: 0 15px 15px 0 ;
+}

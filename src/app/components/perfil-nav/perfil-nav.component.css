@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+    color: #fff;
+}
+
+.nav-portal{
+    width: 100%;
+    background: #1C1D21;
+    padding: 15px 10px 15px 20px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-portal .logo{
+    width: 40px;
+}
+
+.logonav{
+    width: 15px;
+}
+
+.nav-portal nav{
+    margin-left: 20px;
+}
+
+/*botones de navegacion*/
+.nav-portal nav a{
+    color: #00BC4F;
+    text-decoration: none;
+    border: 3px solid #00BC4F;
+    border-radius: 25px;
+    padding: 8px 18px;
+    margin: 0 10px;
+    font-weight: 600;
+}
+
+.nav-portal nav a i{
+    color: inherit;
+}
+
+.nav-portal nav a:hover{
+    background: #00BC4F;
+    color: #fff;
+}
+
+/*sec-perfil*/
+.sec-profile{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 15px;
+
+}
+
+.sec-profile img{
+    width:60px; 
+    height: 50px;
+    border-radius: 50%;
+    object-fit: fill;
+}
+
+.sec-profile .text{
+
+    margin-left: 10px;
+    font-weight: 600;
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.correo-usuario{
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.sec-profile:hover{
+    border-radius: 25px;
+    background: #313238;
+    cursor: pointer;
+}

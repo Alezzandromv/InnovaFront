@@ -1,0 +1,68 @@
+<app-perfil-nav></app-perfil-nav>
+<div class="register-evento">
+    <div class="nav-register">
+        <a href="">Eventos</a>
+        <a href="">Calendario</a>
+        <a href="">Fechas</a>
+        <a href="">Gestionar</a>
+        <div class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text">
+        </div>
+    </div>
+    <div class="titulo-pages">
+        <p class="titulo">MIS EVENTOS .</p>
+        <div class="subMenu">
+            <a href="" class="b1">
+                < Añadir Evento</a>
+                    <a href=""></a>
+        </div>
+    </div>
+
+    <div class="container-register">
+        <div class="img">
+            <img src="fotoPerfil.jpg" alt="">
+            <div class="b2">
+                <button><i class="fa-solid fa-arrow-up-from-bracket"></i> Agrega imagen</button>
+                <i class="fa-solid fa-trash"></i>
+            </div>
+        </div>
+        <form [formGroup]="eventoForm" class="inp">
+            <div class="input">
+                <p>Nombre Evento</p>
+                <input type="text" formControlName="nombreEvento">
+            </div>
+            <div class="input">
+                <p>Facultad</p>
+                <input type="text" formControlName="facultad">
+            </div>
+            <div class="col1">
+                <div class="input a">
+                    <p>Fecha</p>
+                    <input type="date" formControlName="fechaEvento">
+                </div>
+                <div class="input b">
+                    <p>Hora</p>
+                    <input type="time" min="08:00" max="22:00" style="width: 100%;" formControlName="horaEvento">
+                </div>
+            </div>
+            <div class="col2">
+                <div class="input">
+                    <p>Validez</p>
+                    <input type="text" formControlName="validezEvento">
+                </div>
+                <div class="input">
+                    <p>Asistentes</p>
+                    <input type="text" formControlName="maxAsistentes">
+                </div>
+            </div>
+            <div class="input">
+                <p>Lugar</p>
+                <input type="text" formControlName="lugarEvento">
+            </div>
+
+            <button type="submit" class="guardar">Guardar</button>
+        </form>
+    </div>
+
+</div>

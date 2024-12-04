@@ -1,0 +1,5 @@
+<carousel [interval]="10000" [noWrap]="true" [translate]="">
+    <slide class="carrusel" *ngFor="let card of cards">
+        <img src={{card.img}} alt="">
+    </slide>
+</carousel>

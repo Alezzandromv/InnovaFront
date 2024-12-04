@@ -1,0 +1,27 @@
+<header class="nav-portal">
+    <img class="logo" src="logoUrp.png" alt="logoUrp">
+    <nav>
+        <a href="#" class="holi">
+            <i class="fa-solid fa-house"></i> Inicio
+        </a>
+        <a href="#">
+            <i class="fa-solid fa-calendar"></i> Eventos
+        </a>
+        <a href="#">
+            <i class="fa-solid fa-folder"></i> Archivos
+        </a>
+        <a href="#">
+            <i class="fa-solid fa-comments"></i> Blog
+        </a>
+        <a href="https://test.urp.edu.pe/Intranet/login">
+            <img class="logonav" src="logoUrp2.png" alt=""> Intranet
+        </a>
+    </nav>
+    <div class="sec-profile">
+        <img src={{usuarioActual.imagenPerfil}} alt="">
+        <div class="text">
+            <p class="nombre-usuario">{{usuarioActual.nombres}} {{usuarioActual.apellidos}}</p>
+            <p class="correo-usuario">{{usuarioActual.email}}</p>
+        </div>
+    </div>
+</header>

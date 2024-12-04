@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+
+.register-evento{
+    padding: 10px 40px;
+}
+
+.nav-register{
+    width: 100%;
+    background-color: #101012;
+    padding: 30px 40px 30px 0;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-register a{
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 600;
+    flex: 1;
+    text-decoration: none;
+}
+.nav-register a:hover{
+    color: #00BC4F;
+}
+
+.nav-register .search{
+    flex: 2;
+    text-align: center;
+}
+.search i{
+    font-size: 25px;
+    color: #101012;
+}
+.search {
+   
+    padding: 5px 10px;
+    border-radius: 20px;
+    background: #fff;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search input{ 
+    font-size: 20px;
+    width: 92%;
+    outline: none;
+    border: none;
+}
+
+
+
+
+/*titulos pages*/
+.titulo-pages{
+    margin-top: 40px;
+    width: 100%;
+    
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+.titulo-pages .titulo{
+    color: #fff;
+    font-size: 100px;
+    font-weight: 800;
+    font-family: 'League Spartan';
+    line-height: 100px;
+}
+.titulo-pages .subMenu{
+    display: flex;
+    justify-content: space-between;
+}
+.subMenu .b1{
+    color: #00BC4F;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+/*panel registro*/
+
+
+.container-register{
+    background-color: #151618;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    border-radius: 50px;
+    width: 80%;
+    margin: 50px auto;
+}
+
+.img{
+    flex: 1;
+    text-align: center;
+    width: 80%;
+}
+.img img{
+    width: 100%;
+    margin-bottom: 20px;
+    object-fit: fill;
+    border-radius: 25px;
+}
+.b2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.b2 button{
+    background: #00BC4F;
+    flex: 1;
+    margin-right: 20px;
+    padding: 10px 0px;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 20px;
+    border: none;
+}
+.b2 button i{
+    font-size: 28px;
+    margin-right: 20px;
+    color: #fff;
+}
+.b2  i:hover{
+    color: #00bc4eac;
+    cursor: pointer;
+}
+.b2 i{
+    font-size: 50px;
+    color: #00BC4F;
+}
+
+
+
+.inp{
+    flex: 1;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    padding:  0 40px;
+}
+.col1{
+    display: flex;
+    justify-content: space-between;
+}
+.col1 .a{
+    flex: 1;
+}
+.col1 .b{
+    flex: 1;
+}
+.col2{
+    display: flex;
+    justify-content: space-between;
+}
+.input{
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.input input{
+    color: #ffffffaa;
+    padding: 5px 20px ;
+    background: inherit;
+    outline: none;
+    border: 0;
+    border: 3px solid #ffffffaa;
+    border-radius: 25px;
+    font-size: 18px;
+    width: 100%;
+}
+.input p{
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.inp button{
+    margin-left:50% ;
+    margin-top: 30px;
+    width: 50%;
+    background: #00BC4F;
+    padding: 10px 0px;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 20px;
+    border: none;
+}
+button:hover{
+    background: #00bc4eac !important;
+}
+
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1); /* Cambia el color a blanco */
+    cursor: pointer; /* Cambia el cursor para mejor UX */
+  }
+  input[type="time"]::-webkit-calendar-picker-indicator {
+    filter: invert(1); /* Cambia el color a blanco */
+    cursor: pointer; /* Cambia el cursor para mejor UX */
+  }
